@@ -32,16 +32,189 @@ body {
   $font-gray:#888888;
   $swipe-blue: #1c7cf8;
 
+/*Header*/
+  .nav-link{
+      color:$swipe-blue !important;
+  }
+  
+  .navbar-toggler-icon{
+      .navbar-toggler-icon {
+          background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+        }
+  }
 
 /*Page-Home*/
 
-//Header
+
+//Jumbotron Home
+
+.container-home{
+    margin-top:67px;    
+}
+
+.jumbo-home-img{
+    margin-top:8%;
+    background-image: url("https://s3.amazonaws.com/swipe-webpage-pictures/card-bg.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: content-box;
+    @media (min-width: 700px) { background-position-x: 5em; }
+}
+
+.jumbo-home-text{
+    margin-top:20%;
+    @media (min-width: 700px) { 
+        text-align: left;
+        .jumbo-home-subtext{
+            padding-left:10em; 
+            padding-right:10em; 
+        }
+        .jumbo-home-cta{
+            padding-left:9.5em; 
+            padding-right:10em; 
+        }
+        .jumbo-home-nativestore{
+            padding-left:10em; 
+            padding-right:10em; 
+        }
+    }
+    @media (min-width: 1500px) { 
+        text-align: left;
+        .jumbo-home-subtext{
+            padding-left:10em; 
+            padding-right:25em; 
+        }
+        .jumbo-home-cta{
+            padding-left:9.5em; 
+            padding-right:10em; 
+        }
+    }
+    @media (max-width: 700px) { 
+        margin-bottom: 1.0em;
+        text-align: center; 
+        .jumbo-home-cta{
+            text-align: center;
+        }
+    }
+}
+
+.container-home-body{
+    margin-top:10em;    
+}
+
+.body-text{
+    text-align: center;
+    @media (min-width: 700px){
+        padding-left:20em; 
+        padding-right:20em;
+        padding-top:10em; 
+        text-align: left;
+    }
+}
+
+.body-img-1{
+    background-image: url("https://s3.amazonaws.com/swipe-webpage-pictures/card-bg.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: content-box;
+    @media (min-width: 700px) { 
+        background-position-x: 5em; 
+        img{
+            margin-left:10em;
+        }
+    }
+    @media (min-width: 1500px) { 
+        background-position-x: 5em; 
+        img{
+            margin-left:20em;
+        }
+    }
+
+}
+
+.body-img-2{
+
+    background-image: url("https://s3.amazonaws.com/swipe-webpage-pictures/card-bg.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: content-box;
+    @media (min-width: 700px) { background-position-x: 5em; }
+}
+
+.body-img-3{
+
+    background-image: url("https://s3.amazonaws.com/swipe-webpage-pictures/card-bg.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: content-box;
+    @media (min-width: 700px) { 
+        background-position-x: 5em; 
+        img{
+            margin-left:10em;
+        }
+    }
+    @media (min-width: 1500px) { 
+        background-position-x: 5em; 
+        img{
+            margin-left:20em;
+        }
+    }
+}
+
+.body-img-4{
+
+    background-image: url("https://s3.amazonaws.com/swipe-webpage-pictures/card-bg.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: content-box;
+    @media (min-width: 700px) { background-position-x: 5em; }
+}
 
 
-//Jumbotron
+//Section2
+.section2-img{
+    @media (max-width: 700px) { 
+        margin-top:10%;
+        padding-top:0%;
+        img{left:30%;}
+    }
+    @media (min-width: 700px) { 
+        padding-top:6%;
+        img{padding-left:55%;}
+    }
+    @media (min-width: 1500px) { 
+        padding-top:4%;
+        img{padding-left:60%;}
+    }
+}
 
+.sect2-text{
+    margin-top: 2em;
+    text-align:center;
+    @media (max-width: 700px) { 
+        padding-left:1%;
+    }
+    @media (min-width: 700px) { 
+        padding-left:50%;
+    }
+    @media (min-width: 1500px) { 
+        padding-left:50%;
+    }
+}
 
-
+.sect2-cta{
+    @media (max-width: 700px) { 
+        margin-top:10%;
+        padding-left:25%;
+    }
+    @media (min-width: 700px) { 
+        padding-left:42.5%;
+    }
+    @media (min-width: 1500px) { 
+        padding-left:45%;
+    }
+    margin-bottom:5%;
+}
 
 
 
@@ -51,5 +224,22 @@ body {
 
 /*Page-Contact Us*/
 
+/*Footer*/
+.footer-container{
+    height:200px;
+    background-color:$swipe-blue;
+    @media (max-width: 700px) { 
+        padding-top:10%;
 
+    }
+    @media (min-width: 700px) { 
+        padding:3% 0 0 10%;
+    }
+    @media (min-width: 1500px) { 
+        padding:3% 0 0 10%;
+    }
+    .footer-icon{
+        margin-right:0px !important;
+    }
+}
 

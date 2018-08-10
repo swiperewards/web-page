@@ -13,7 +13,179 @@ body {
   padding: 0;
   font-family: sans-serif; }
 
+/*Header*/
+.nav-link {
+  color: #1c7cf8 !important; }
+
+.navbar-toggler-icon .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
+
 /*Page-Home*/
+.container-home {
+  margin-top: 67px; }
+
+.jumbo-home-img {
+  margin-top: 8%;
+  background-image: url("https://s3.amazonaws.com/swipe-webpage-pictures/card-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-clip: content-box; }
+  @media (min-width: 700px) {
+    .jumbo-home-img {
+      background-position-x: 5em; } }
+
+.jumbo-home-text {
+  margin-top: 20%; }
+  @media (min-width: 700px) {
+    .jumbo-home-text {
+      text-align: left; }
+      .jumbo-home-text .jumbo-home-subtext {
+        padding-left: 10em;
+        padding-right: 10em; }
+      .jumbo-home-text .jumbo-home-cta {
+        padding-left: 9.5em;
+        padding-right: 10em; }
+      .jumbo-home-text .jumbo-home-nativestore {
+        padding-left: 10em;
+        padding-right: 10em; } }
+  @media (min-width: 1500px) {
+    .jumbo-home-text {
+      text-align: left; }
+      .jumbo-home-text .jumbo-home-subtext {
+        padding-left: 10em;
+        padding-right: 25em; }
+      .jumbo-home-text .jumbo-home-cta {
+        padding-left: 9.5em;
+        padding-right: 10em; } }
+  @media (max-width: 700px) {
+    .jumbo-home-text {
+      margin-bottom: 1.0em;
+      text-align: center; }
+      .jumbo-home-text .jumbo-home-cta {
+        text-align: center; } }
+
+.container-home-body {
+  margin-top: 10em; }
+
+.body-text {
+  text-align: center; }
+  @media (min-width: 700px) {
+    .body-text {
+      padding-left: 20em;
+      padding-right: 20em;
+      padding-top: 10em;
+      text-align: left; } }
+
+.body-img-1 {
+  background-image: url("https://s3.amazonaws.com/swipe-webpage-pictures/card-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-clip: content-box; }
+  @media (min-width: 700px) {
+    .body-img-1 {
+      background-position-x: 5em; }
+      .body-img-1 img {
+        margin-left: 10em; } }
+  @media (min-width: 1500px) {
+    .body-img-1 {
+      background-position-x: 5em; }
+      .body-img-1 img {
+        margin-left: 20em; } }
+
+.body-img-2 {
+  background-image: url("https://s3.amazonaws.com/swipe-webpage-pictures/card-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-clip: content-box; }
+  @media (min-width: 700px) {
+    .body-img-2 {
+      background-position-x: 5em; } }
+
+.body-img-3 {
+  background-image: url("https://s3.amazonaws.com/swipe-webpage-pictures/card-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-clip: content-box; }
+  @media (min-width: 700px) {
+    .body-img-3 {
+      background-position-x: 5em; }
+      .body-img-3 img {
+        margin-left: 10em; } }
+  @media (min-width: 1500px) {
+    .body-img-3 {
+      background-position-x: 5em; }
+      .body-img-3 img {
+        margin-left: 20em; } }
+
+.body-img-4 {
+  background-image: url("https://s3.amazonaws.com/swipe-webpage-pictures/card-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-clip: content-box; }
+  @media (min-width: 700px) {
+    .body-img-4 {
+      background-position-x: 5em; } }
+
+@media (max-width: 700px) {
+  .section2-img {
+    margin-top: 10%;
+    padding-top: 0%; }
+    .section2-img img {
+      left: 30%; } }
+
+@media (min-width: 700px) {
+  .section2-img {
+    padding-top: 6%; }
+    .section2-img img {
+      padding-left: 55%; } }
+
+@media (min-width: 1500px) {
+  .section2-img {
+    padding-top: 4%; }
+    .section2-img img {
+      padding-left: 60%; } }
+
+.sect2-text {
+  margin-top: 2em;
+  text-align: center; }
+  @media (max-width: 700px) {
+    .sect2-text {
+      padding-left: 1%; } }
+  @media (min-width: 700px) {
+    .sect2-text {
+      padding-left: 50%; } }
+  @media (min-width: 1500px) {
+    .sect2-text {
+      padding-left: 50%; } }
+
+.sect2-cta {
+  margin-bottom: 5%; }
+  @media (max-width: 700px) {
+    .sect2-cta {
+      margin-top: 10%;
+      padding-left: 25%; } }
+  @media (min-width: 700px) {
+    .sect2-cta {
+      padding-left: 42.5%; } }
+  @media (min-width: 1500px) {
+    .sect2-cta {
+      padding-left: 45%; } }
+
 /*Page-About Us*/
 /*Page-Merchant*/
 /*Page-Contact Us*/
+/*Footer*/
+.footer-container {
+  height: 200px;
+  background-color: #1c7cf8; }
+  @media (max-width: 700px) {
+    .footer-container {
+      padding-top: 10%; } }
+  @media (min-width: 700px) {
+    .footer-container {
+      padding: 3% 0 0 10%; } }
+  @media (min-width: 1500px) {
+    .footer-container {
+      padding: 3% 0 0 10%; } }
+  .footer-container .footer-icon {
+    margin-right: 0px !important; }
