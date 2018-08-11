@@ -5,6 +5,10 @@ import Home from './containers/Home';
 import About from './containers/About';
 import Merchant from './containers/Merchant';
 import Contact from './containers/Contact';
+import 'font-awesome/css/font-awesome.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css'; 
+import 'mdbreact/dist/css/mdb.css';
+
 
 class App extends Component {
   render() {
