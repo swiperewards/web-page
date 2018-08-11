@@ -4,7 +4,7 @@ import JumboHome from '../components/jumboHome';
 import HomeBody from '../components/homeBody';
 import HomeBodyMobile from '../components/homeBodyMobile';
 import Section2 from '../components/section2';
-import Footer from '../components/footer';
+import FooterSection from '../components/footer';
 
 
 class Home extends Component {
@@ -48,7 +48,7 @@ class Home extends Component {
                 <JumboHome/>
                 <div isDesktop={isDesktop}>{viewportType}</div>
                 <Section2/>
-                <Footer/>
+                <FooterSection/>
             </div>
         )
     }
