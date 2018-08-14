@@ -237,6 +237,113 @@ body {
 
 /*Page-About Us*/
 
+
+@media (max-width: 700px) { 
+    .about-jumbo-image{
+        height:20em;
+        width:100%;
+        padding:0;
+        background-image: url("https://s3.amazonaws.com/swipe-webpage-pictures/about-hero.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .about-jumbo-text{
+        height:20em;
+        width:inherit;
+        padding:0;
+        background: $swipe-blue;
+        color:white;
+        p{
+            margin-top:1.5em;
+            font-size:20px;
+            line-height:32px;
+            font-weight:700;
+            text-align: center;
+        }
+        h6{
+            text-align: center;
+        }
+    }
+    .about-body-title{
+        margin-top:1.5em !important;
+        text-align: center;
+        margin-top:5em;
+        font-size:32px;
+        line-height: 48px;
+        font-weight:700;
+    }
+}
+
+@media (min-width: 700px) {
+    .about-jumbo-image{ 
+        margin-top:5em !important; 
+        background-image: url("https://s3.amazonaws.com/swipe-webpage-pictures/about-hero.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height:25em;
+        width:inherit;
+        padding:0;
+        
+    }
+    .about-jumbo-text{
+        margin-top:5em !important;  
+        height:25em;
+        width:inherit;
+        padding:0;
+        background: $swipe-blue;
+        color:white;
+        p{
+            margin-top:1.5em;
+            font-size:32px;
+            line-height: 48px;
+            font-weight:700;
+        }
+    } 
+    .about-body-title{
+        margin-top:2.5em !important;
+        text-align: center;
+        margin-top:5em;
+        font-size:32px;
+        line-height: 48px;
+        font-weight:700;
+    }
+}
+@media (min-width: 1500px) {
+    .about-jumbo-image{
+        margin-top:5em !important; 
+        background-image: url("https://s3.amazonaws.com/swipe-webpage-pictures/about-hero.jpg");
+        background-size: cover;
+        background-repeat: no-repeat; 
+        height:30em;
+        width:100%;
+        padding:0;
+    }
+    .about-jumbo-text{
+        margin-top:5em !important; 
+        height:30em;
+        width:inherit;
+        padding:0;
+        background: $swipe-blue;
+        color:white;
+        p{
+            margin-top:5em;
+            font-size:32px;
+            line-height: 48px;
+            font-weight:700;
+        }
+    }
+    .about-body-title{
+        margin-top:5em !important;
+        text-align: center;
+        margin-top:5em;
+        font-size:32px;
+        line-height: 48px;
+        font-weight:700;
+    }
+}
+    
+
+
 /*Page-Merchant*/
 
 /*Page-Contact Us*/
