@@ -18,7 +18,7 @@ const JumboHome = () => {
                         <img src={appstoreLogo} width="105px" height="72px" alt="apple app store icon"/>
                     </div>
                     <div className="jumbo-home-cta">
-                        <Button active size="md" outline color="primary">Get Early Access</Button>
+                        <Button active size="md" outline color="primary">Coming Soon</Button>
                     </div>
                 </div>
                 <div className="col-md-4 jumbo-home-img"><img src="https://s3.amazonaws.com/swipe-webpage-pictures/swipe-app-mockup.png" alt="swipe app"/></div>
