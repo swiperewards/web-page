@@ -15,9 +15,7 @@ class FooterSection extends Component {
                         <Col md="2" lg="2" xl="2" className="mx-auto mt-3">
                             <h6 className="text-uppercase mb-4 font-weight-bold">Products</h6>
                             <p><a href="#!">Swipe Rewards</a></p>
-                            <p><a href="#!">Flyte</a></p>
-                            <p><a href="#!">Rome</a></p>
-                            <p><a href="#!">Teapot</a></p>
+                            <p><a href="#!">Swipe Flyte</a></p>
                         </Col>
                         <hr className="w-100 clearfix d-md-none"/>
                         <Col md="3" lg="2" xl="2" className="mx-auto mt-3">

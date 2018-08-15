@@ -5,6 +5,7 @@ import HomeBody from '../components/homeBody';
 import HomeBodyMobile from '../components/homeBodyMobile';
 import Section2 from '../components/section2';
 import FooterSection from '../components/footer';
+import JumboHomeMobile from '../components/jumboHomeMobile';
 
 
 class Home extends Component {
@@ -36,16 +37,19 @@ class Home extends Component {
         console.log(this.state);
         const isDesktop = this.state.isDesktop;
         let viewportType;
+        let jumboType;
 
         if (isDesktop) {
             viewportType = <HomeBody/> ;
+            jumboType = <JumboHome/>;
           } else {
+            jumboType = <JumboHomeMobile/>;
             viewportType =  <HomeBodyMobile/>
           }
         return (
             <div>
                 <Navbar/>
-                <JumboHome/>
+                <div isDesktop={isDesktop}>{jumboType}</div>
                 <div isDesktop={isDesktop}>{viewportType}</div>
                 <Section2/>
                 <FooterSection/>
