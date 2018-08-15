@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import { Route, Switch } from 'react-router-dom';
 import Home from './containers/Home';
@@ -11,6 +12,9 @@ import 'mdbreact/dist/css/mdb.css';
 
 
 class App extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
   render() {
     return (
       <React.Fragment>

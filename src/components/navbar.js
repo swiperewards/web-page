@@ -12,7 +12,9 @@ class FixedNavbarExample extends React.Component {
     };
         this.onClick = this.onClick.bind(this);
     }
-
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
     onClick(){
     this.setState({
         collapse: !this.state.collapse,
