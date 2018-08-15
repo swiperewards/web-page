@@ -91,7 +91,7 @@ const AboutUsBody = (props) => {
                     image="https://s3.amazonaws.com/swipe-webpage-pictures/img-ari.png"
                     title="Penn Arthur"
                     subtitle="Advisor"
-                    description="Born in João Pessoa, Brazil, Isaac has had a knack for entrepreneurship from a young age. As an adult, he is a serial entrepreneur with one purpose in mind: empowering small businesses."
+                    description="An experienced entrepreneur with over 20 years of experience dealing with large entities like GM, Raytheon, and Boeing."
                     alt="Penn Arthur"
                 />
                 <Grid item xs={12} className="about-body-banner">
