@@ -5,7 +5,7 @@ const HomeBodyMobile = () => {
         <div className="container-fluid container-home-body"> 
             <div className="row">
                 <div className="col-md-4 body-img-1">
-                    <img src="https://s3.amazonaws.com/swipe-webpage-pictures/swipe-app-mockup.png" alt="swipe app"/>
+                    <img src="https://s3.amazonaws.com/swipe-webpage-pictures/swipe-app-mockup-wallet-transactions.png" alt="swipe app"/>
                 </div>
                 <div className="col-md-8 body-text body-text-1">
                     <p className=".col-md-3 subtext jumbo-home-subtext">
@@ -16,7 +16,7 @@ const HomeBodyMobile = () => {
             </div>
             <div className="row">
                 <div className="col-md-4 body-img-2">
-                    <img src="https://s3.amazonaws.com/swipe-webpage-pictures/swipe-app-mockup.png" alt="swipe app"/>
+                    <img src="https://s3.amazonaws.com/swipe-webpage-pictures/swipe-app-mockup-wallet.png" alt="swipe app"/>
                 </div>
                 <div className="col-md-8 body-text body-text-2">
                     <p className=".col-md-3 subtext jumbo-home-subtext">
@@ -27,7 +27,7 @@ const HomeBodyMobile = () => {
             </div>
             <div className="row">
                 <div className="col-md-4 body-img-3">
-                <img src="https://s3.amazonaws.com/swipe-webpage-pictures/swipe-app-mockup.png" alt="swipe app"/>
+                <img src="https://s3.amazonaws.com/swipe-webpage-pictures/swipe-app-mockup-redeem-bank.png" alt="swipe app"/>
                 </div>
                 <div className="col-md-8 body-text body-text-3">
                     <p className=".col-md-3 subtext jumbo-home-subtext">
@@ -38,7 +38,7 @@ const HomeBodyMobile = () => {
             </div>
             <div className="row">
                 <div className="col-md-4 body-img-4">
-                    <img src="https://s3.amazonaws.com/swipe-webpage-pictures/swipe-app-mockup.png" alt="swipe app"/>
+                    <img src="https://s3.amazonaws.com/swipe-webpage-pictures/swipe-app-mockup-redeem-crypto.png" alt="swipe app"/>
                 </div>
                 <div className="col-md-8 body-text body-text-4">
                 <p className=".col-md-3 subtext jumbo-home-subtext">
