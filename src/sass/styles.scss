@@ -95,11 +95,13 @@ em, i, dfn {
     background-position: center;
     background-clip: content-box;
     img{
-        width:176px;
+        width:196px;
         height:303px;
         margin-left:5em;
     }
+    
 }
+
 
 .jumbo-home-img{
     margin-top:8%;
@@ -159,7 +161,7 @@ em, i, dfn {
 .container-home-body{
     margin-top:10em;
     img{
-        width:303px;
+        width:315px;
         height:560px;
     }    
 }
@@ -181,7 +183,7 @@ em, i, dfn {
     background-clip: content-box;
     @media (max-width: 700px) { 
         img{
-            margin-left:1em;
+            margin-left:2em;
         }
     }
     @media (min-width: 700px) { 
@@ -207,7 +209,7 @@ em, i, dfn {
     background-clip: content-box;
     @media (max-width: 700px) { 
         img{
-            margin-left:1em;
+            margin-left:2em;
         }
     }
     @media (min-width: 700px) { background-position-x: 5em; }
@@ -221,7 +223,7 @@ em, i, dfn {
     background-clip: content-box;
     @media (max-width: 700px) { 
         img{
-            margin-left:1em;
+            margin-left:2em;
         }
     }
     @media (min-width: 700px) { 
@@ -246,7 +248,7 @@ em, i, dfn {
     background-clip: content-box;
     @media (max-width: 700px) { 
         img{
-            margin-left:1em;
+            margin-left:2em;
         }
     }
     @media (min-width: 700px) { background-position-x: 5em; }
