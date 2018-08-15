@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.ed6b8914.css",
-  "main.css.map": "static/css/main.ed6b8914.css.map",
-  "main.js": "static/js/main.5a50922b.js",
-  "main.js.map": "static/js/main.5a50922b.js.map",
+  "main.css": "static/css/main.a744ac57.css",
+  "main.css.map": "static/css/main.a744ac57.css.map",
+  "main.js": "static/js/main.a6ccc883.js",
+  "main.js.map": "static/js/main.a6ccc883.js.map",
   "static\\media\\Roboto-Bold.eot": "static/media/Roboto-Bold.ecdd509c.eot",
   "static\\media\\Roboto-Bold.ttf": "static/media/Roboto-Bold.e31fcf18.ttf",
   "static\\media\\Roboto-Bold.woff": "static/media/Roboto-Bold.dc81817d.woff",
@@ -31,5 +31,8 @@
   "static\\media\\fontawesome-webfont.ttf?v=4.7.0": "static/media/fontawesome-webfont.b06871f2.ttf",
   "static\\media\\fontawesome-webfont.woff2?v=4.7.0": "static/media/fontawesome-webfont.af7ae505.woff2",
   "static\\media\\fontawesome-webfont.woff?v=4.7.0": "static/media/fontawesome-webfont.fee66e71.woff",
-  "static\\media\\google-play-badge.svg": "static/media/google-play-badge.7eaa6331.svg"
+  "static\\media\\google-play-badge.svg": "static/media/google-play-badge.7eaa6331.svg",
+  "static\\media\\ic-values-authenticity.svg": "static/media/ic-values-authenticity.9143f954.svg",
+  "static\\media\\ic-values-innovate.svg": "static/media/ic-values-innovate.f9f8eec0.svg",
+  "static\\media\\ic-values-merchant.svg": "static/media/ic-values-merchant.dcdd06a2.svg"
 }
