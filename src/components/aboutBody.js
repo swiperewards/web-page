@@ -80,7 +80,7 @@ const AboutUsBody = (props) => {
                     games="GTAV"
                     alt="Karina Lopez"
                 />
-                <AdvisorCard
+                {/* <AdvisorCard
                     image="https://s3.amazonaws.com/swipe-webpage-pictures/img-ari.jpg"
                     title="Ari Kaplan"
                     subtitle="CFO and Advisor"
@@ -93,7 +93,7 @@ const AboutUsBody = (props) => {
                     subtitle="Advisor"
                     description="An experienced entrepreneur with over 20 years of experience dealing with large entities like GM, Raytheon, and Boeing."
                     alt="Penn Arthur"
-                />
+                /> */}
                 <Grid item xs={12} className="about-body-banner">
                     <p>Join Us In Making Cashback Cool Again</p>
                     <Button active size="sm" outline color="primary">Coming Soon</Button>

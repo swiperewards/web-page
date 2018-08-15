@@ -7,6 +7,7 @@ const JumboHome = () => {
     return (
         <div className="container-fluid container-home"> 
             <div className="row">
+                <div className="col-md-4 jumbo-home-img-mobile"><img src="https://s3.amazonaws.com/swipe-webpage-pictures/swipe-app-mockup-home.png" alt="swipe app"/></div>
                 <div className="col-md-8 jumbo-home-text">
                     <p className=".col-md-3 subtext jumbo-home-subtext">
                         <h1>Swipe To Save</h1>
@@ -21,7 +22,6 @@ const JumboHome = () => {
                         <Button active size="md" outline color="primary">Coming Soon</Button>
                     </div>
                 </div>
-                <div className="col-md-4 jumbo-home-img"><img src="https://s3.amazonaws.com/swipe-webpage-pictures/swipe-app-mockup-home.png" alt="swipe app"/></div>
             </div>
         </div>
     )

@@ -69,6 +69,14 @@ em, i, dfn {
   background-color: #ff0000; }
 
 /*Header*/
+@media (min-width: 1500px) {
+  .navbar {
+    padding: 0 18% 0 9% !important; } }
+
+@media (min-width: 700px) {
+  .navbar {
+    padding: 0 12% 0 13% !important; } }
+
 .nav-link {
   color: #1c7cf8 !important; }
 
@@ -79,15 +87,33 @@ em, i, dfn {
 .container-home {
   margin-top: 67px; }
 
+.jumbo-home-img-mobile {
+  margin-top: 1%;
+  background-image: url("https://s3.amazonaws.com/swipe-webpage-pictures/card-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-clip: content-box; }
+  .jumbo-home-img-mobile img {
+    width: 176px;
+    height: 303px;
+    margin-left: 5em; }
+
 .jumbo-home-img {
   margin-top: 8%;
   background-image: url("https://s3.amazonaws.com/swipe-webpage-pictures/card-bg.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-clip: content-box; }
+  .jumbo-home-img img {
+    width: 303px;
+    height: 560px; }
   @media (min-width: 700px) {
     .jumbo-home-img {
       background-position-x: 5em; } }
+
+@media (max-width: 700px) {
+  .jumbo-home-img > img {
+    left: 3em; } }
 
 .jumbo-home-text {
   margin-top: 20%; }
@@ -112,15 +138,20 @@ em, i, dfn {
       .jumbo-home-text .jumbo-home-cta {
         padding-left: 9.5em;
         padding-right: 10em; } }
-  @media (max-width: 700px) {
-    .jumbo-home-text {
-      margin-bottom: 1.0em;
-      text-align: center; }
-      .jumbo-home-text .jumbo-home-cta {
-        text-align: center; } }
+
+@media (max-width: 700px) {
+  .jumbo-home-text {
+    margin-top: 1.5%;
+    margin-bottom: 1.0em;
+    text-align: center; }
+  .jumbo-home-cta {
+    text-align: center; } }
 
 .container-home-body {
   margin-top: 10em; }
+  .container-home-body img {
+    width: 303px;
+    height: 560px; }
 
 .body-text {
   text-align: center; }
@@ -145,7 +176,7 @@ em, i, dfn {
     .body-img-1 {
       background-position-x: 5em; }
       .body-img-1 img {
-        margin-left: 20em; } }
+        margin-left: 22.5em; } }
 
 .body-img-2 {
   background-image: url("https://s3.amazonaws.com/swipe-webpage-pictures/card-bg.svg");
@@ -170,7 +201,7 @@ em, i, dfn {
     .body-img-3 {
       background-position-x: 5em; }
       .body-img-3 img {
-        margin-left: 20em; } }
+        margin-left: 22.5em; } }
 
 .body-img-4 {
   background-image: url("https://s3.amazonaws.com/swipe-webpage-pictures/card-bg.svg");
@@ -189,29 +220,36 @@ em, i, dfn {
       left: 30%; } }
 
 @media (min-width: 700px) {
-  .section2-img {
-    padding-top: 6%; }
-    .section2-img img {
-      padding-left: 55%; } }
+  .section2-img-tag {
+    padding-top: 6%;
+    padding-left: 39%; } }
 
 @media (min-width: 1500px) {
-  .section2-img {
-    padding-top: 4%; }
-    .section2-img img {
-      padding-left: 60%; } }
+  .section2-img-tag {
+    padding-top: 4%;
+    padding-left: 40%; } }
 
-.sect2-text {
-  margin-top: 2em;
-  text-align: center; }
-  @media (max-width: 700px) {
-    .sect2-text {
-      padding-left: 1%; } }
-  @media (min-width: 700px) {
-    .sect2-text {
-      padding-left: 50%; } }
-  @media (min-width: 1500px) {
-    .sect2-text {
-      padding-left: 50%; } }
+.section2-img > div > img {
+  width: 303px;
+  height: 506px; }
+
+@media (max-width: 700px) {
+  .sect2-text {
+    margin-top: 2em;
+    text-align: center;
+    padding-left: 1%; } }
+
+@media (min-width: 700px) {
+  .sect2-text {
+    margin-top: 2em;
+    text-align: center;
+    padding-left: 50%; } }
+
+@media (min-width: 1500px) {
+  .sect2-text {
+    margin-top: 2em;
+    text-align: center;
+    padding-left: 45%; } }
 
 .sect2-cta {
   margin-bottom: 5%; }
@@ -221,10 +259,10 @@ em, i, dfn {
       padding-left: 25%; } }
   @media (min-width: 700px) {
     .sect2-cta {
-      padding-left: 42.5%; } }
+      padding-left: 44.0%; } }
   @media (min-width: 1500px) {
     .sect2-cta {
-      padding-left: 45%; } }
+      padding-left: 44%; } }
 
 /*Page-About Us*/
 @media (max-width: 700px) {
@@ -361,7 +399,7 @@ em, i, dfn {
   margin-top: 0px !important; }
 
 .stylish-color-dark {
-  background-color: #1c7cf8 !important; }
+  background-color: #002049 !important; }
 
 /*Components*/
 @media (max-width: 700px) {

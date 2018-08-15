@@ -34,14 +34,14 @@ class FixedNavbarExample extends React.Component {
                     <Collapse isOpen = { this.state.collapse } navbar>
                     <NavbarNav right>
                       <NavItem>
-                          <NavLink to="/About">About</NavLink>
+                          <NavLink to="/About">About Us</NavLink>
                       </NavItem>
-                      <NavItem>
+                      {/* <NavItem>
                           <NavLink to="/">Merchant</NavLink>
                       </NavItem>
                       <NavItem>
                         <NavLink to="/">Contact Us</NavLink>
-                      </NavItem>
+                      </NavItem> */}
                     </NavbarNav>
                     <Button active size="sm" outline color="primary">Coming Soon</Button>
                     </Collapse>
