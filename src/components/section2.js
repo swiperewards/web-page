@@ -16,7 +16,7 @@ const Section2 = () => {
                 </p>
             </div>
             <div className="sect2-cta">
-                <Button active size="md" outline color="primary">Get Early Access</Button>
+                <Button active size="md" outline color="primary">Coming Soon</Button>
             </div>
         </div>
     )

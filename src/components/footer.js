@@ -4,7 +4,7 @@ import { Col, Container, Row, Footer } from 'mdbreact';
 class FooterSection extends Component {
     render(){
         return(
-            <Footer color="stylish-color-dark" className="font-small pt-4 mt-4">
+            <Footer color="stylish-color-dark" className="font-small pt-4 mt-4 footer">
                 <Container fluid className="text-center text-md-left">
                     <Row className="text-center text-md-left mt-3 pb-3">
                         <Col md="3" lg="3" xl="3" className="mx-auto mt-3">

@@ -11,6 +11,7 @@ class About extends Component {
                 <Navbar/>
                 <JumboAbout/>
                 <AboutUsBody/>
+                <FooterSection/>
             </div>
         )
     }

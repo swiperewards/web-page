@@ -44,7 +44,7 @@ class FixedNavbarExample extends React.Component {
                         <NavLink to="Contact">Contact Us</NavLink>
                       </NavItem>
                     </NavbarNav>
-                    <Button active size="sm" outline color="primary">Sign Up</Button>
+                    <Button active size="sm" outline color="primary">Coming Soon</Button>
                     </Collapse>
                 </Navbar>
         );
