@@ -45,40 +45,48 @@ const AboutUsBody = (props) => {
                     <p>The Team</p>
                 </Grid>
                 <TeamCard
-                    image="https://s3.amazonaws.com/swipe-webpage-pictures/img-isaac.jpg"
+                    image="https://s3.amazonaws.com/swipe-webpage-pictures/image-isaac.png"
                     title="Isaac Medeiros"
                     subtitle="Co-Founder and CEO"
                     description="Born in João Pessoa, Brazil, Isaac has had a knack for entrepreneurship from a young age. As an adult, he is a serial entrepreneur with one purpose in mind: empowering small businesses."
                     hobbies="Scuba diving. Skiing."
                     games="PUBG"
                     alt="isaac medeiros"
+                    linkedin="https://www.linkedin.com/in/isaacmedeiros/"
+                    twitter="https://twitter.com/cryptoisaac"
                 />
                 <TeamCard
-                    image="https://s3.amazonaws.com/swipe-webpage-pictures/img-isaac.png"
+                    image="https://s3.amazonaws.com/swipe-webpage-pictures/image-filipp.jpg"
                     title="Filipp Krasovsky"
                     subtitle="Senior Vice President"
                     description="Born in St. Petersburg, Russia, Filipp is extremely gifted in the field of math. He holds a B.S. in Economics from UCLA and single-handedly built the rewards algorithm for Swipe from the ground up."
                     hobbies=" Cooking. Hiking."
                     games="TF2"
                     alt="Filipp Krasovsky"
+                    linkedin="https://www.linkedin.com/in/filippkay/"
+                    twitter="https://twitter.com/KayFilipp"
                 />
                 <TeamCard
-                    image="https://s3.amazonaws.com/swipe-webpage-pictures/img-proshonjit.png"
+                    image="https://s3.amazonaws.com/swipe-webpage-pictures/image-proshonjit.jpg"
                     title="Proshonjit Das"
                     subtitle="Chief Technology Officer"
                     description="Born in Kuala Lumpur, Malaysia, Proshonjit knows a thing or two about IT systems. He comes from a deep background in software engineering and has a talent for management."
                     hobbies="Learning about new technologies."
                     games="Total War"
                     alt="Proshonjit Das"
+                    linkedin="https://www.linkedin.com/in/pxdas/"
+                    twitter="https://twitter.com/ptxds"
                 />
                 <TeamCard
-                    image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqeFnmAB6pPubwY8xrUJGknAUq_ig1NLUq5crX3BNSwh3NNwcCWg"
+                    image="https://s3.amazonaws.com/swipe-webpage-pictures/image-karina.jpg"
                     title="Karina Lopez"
                     subtitle="Director of Communications"
                     description="Born in Los Angeles, CA, Karina , Karina has had a knack for entrepreneurship from a young age. As an adult, he is a serial entrepreneur with one purpose in mind: empowering small businesses."
                     hobbies="SoulCycle. Binge-watching Netflix. "
-                    games="GTAV"
+                    games="GTA V"
                     alt="Karina Lopez"
+                    linkedin="https://www.linkedin.com/in/karina-l-78905a103/"
+                    twitter="https://twitter.com/SenKarinaLopez"
                 />
                 {/* <AdvisorCard
                     image="https://s3.amazonaws.com/swipe-webpage-pictures/img-ari.jpg"

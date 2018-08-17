@@ -5,7 +5,7 @@ const TeamCard = (props) => {
     return (
         <Grid item xs={12}>
             <div className="teamcards-image-body">
-                <img src={props.image} alt={props.alt} className="teamcards-image"/>
+                <img src={props.image} alt={props.alt} className="teamcards-image img-fluid"/>
             </div>
             <div className="teamcards-body">
                 <p className="teamcards-title">
@@ -24,13 +24,13 @@ const TeamCard = (props) => {
                     <b>Favorite Game:</b> {props.games}
                 </p>
                 <div class="social">
-                  <a href="#" target="_blank">
+                  {/* <a href={props.facebook} target="_blank">
                     <i class="fa fa-facebook mr-3"></i>
-                  </a>
-                  <a href="#" target="_blank">
+                  </a> */}
+                  <a href={props.twitter} target="_blank">
                     <i class="fa fa-twitter mr-3"></i>
                   </a>
-                  <a href="#" target="_blank">
+                  <a href={props.linkedin} target="_blank">
                     <i class="fa fa-linkedin mr-3"></i>
                   </a>
                 </div>
