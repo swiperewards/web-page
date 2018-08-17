@@ -52,6 +52,8 @@ const AboutUsBody = (props) => {
                     hobbies="Scuba diving. Skiing."
                     games="PUBG"
                     alt="isaac medeiros"
+                    linkedin="https://www.linkedin.com/in/isaacmedeiros/"
+                    twitter="https://twitter.com/cryptoisaac"
                 />
                 <TeamCard
                     image="https://s3.amazonaws.com/swipe-webpage-pictures/image-filipp.jpg"
@@ -61,6 +63,8 @@ const AboutUsBody = (props) => {
                     hobbies=" Cooking. Hiking."
                     games="TF2"
                     alt="Filipp Krasovsky"
+                    linkedin="https://www.linkedin.com/in/filippkay/"
+                    twitter="https://twitter.com/KayFilipp"
                 />
                 <TeamCard
                     image="https://s3.amazonaws.com/swipe-webpage-pictures/image-proshonjit.jpg"
@@ -70,6 +74,8 @@ const AboutUsBody = (props) => {
                     hobbies="Learning about new technologies."
                     games="Total War"
                     alt="Proshonjit Das"
+                    linkedin="https://www.linkedin.com/in/pxdas/"
+                    twitter="https://twitter.com/ptxds"
                 />
                 <TeamCard
                     image="https://s3.amazonaws.com/swipe-webpage-pictures/image-karina.jpg"
@@ -79,6 +85,8 @@ const AboutUsBody = (props) => {
                     hobbies="SoulCycle. Binge-watching Netflix. "
                     games="GTA V"
                     alt="Karina Lopez"
+                    linkedin="https://www.linkedin.com/in/karina-l-78905a103/"
+                    twitter="https://twitter.com/SenKarinaLopez"
                 />
                 {/* <AdvisorCard
                     image="https://s3.amazonaws.com/swipe-webpage-pictures/img-ari.jpg"

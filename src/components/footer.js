@@ -40,10 +40,10 @@ class FooterSection extends Component {
                         <Col md="4" lg="4" className="ml-lg-0">
                             <div className="text-center text-md-right">
                             <ul className="list-unstyled list-inline">
-                                    <li className="list-inline-item"><a href="/" className="btn-floating btn-sm rgba-white-slight mx-1" target="_blank"><i className="fa fa-facebook"></i></a></li>
-                                    <li className="list-inline-item"><a href="/" className="btn-floating btn-sm rgba-white-slight mx-1" target="_blank"><i className="fa fa-twitter"></i></a></li>
-                                    <li className="list-inline-item"><a href="/" className="btn-floating btn-sm rgba-white-slight mx-1" target="_blank"><i className="fa fa-youtube"></i></a></li>
-                                    <li className="list-inline-item"><a href="/" className="btn-floating btn-sm rgba-white-slight mx-1" target="_blank"><i className="fa fa-linkedin"></i></a></li>
+                                    <li className="list-inline-item"><a href="https://www.facebook.com/swiperewards/" className="btn-floating btn-sm rgba-white-slight mx-1" target="_blank"><i className="fa fa-facebook"></i></a></li>
+                                    <li className="list-inline-item"><a href="https://twitter.com/Swiperewards?lang=en" className="btn-floating btn-sm rgba-white-slight mx-1" target="_blank"><i className="fa fa-twitter"></i></a></li>
+                                    <li className="list-inline-item"><a href="https://www.youtube.com/channel/UCIhCsBB4nj0rK3rYrETtp4Q" className="btn-floating btn-sm rgba-white-slight mx-1" target="_blank"><i className="fa fa-youtube"></i></a></li>
+                                    <li className="list-inline-item"><a href="https://t.me/SwipeRewards" className="btn-floating btn-sm rgba-white-slight mx-1" target="_blank"><i className="fa fa-telegram"></i></a></li>
                             </ul>
                             </div>
                         </Col>

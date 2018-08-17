@@ -24,13 +24,13 @@ const TeamCard = (props) => {
                     <b>Favorite Game:</b> {props.games}
                 </p>
                 <div class="social">
-                  <a href="#" target="_blank">
+                  {/* <a href={props.facebook} target="_blank">
                     <i class="fa fa-facebook mr-3"></i>
-                  </a>
-                  <a href="#" target="_blank">
+                  </a> */}
+                  <a href={props.twitter} target="_blank">
                     <i class="fa fa-twitter mr-3"></i>
                   </a>
-                  <a href="#" target="_blank">
+                  <a href={props.linkedin} target="_blank">
                     <i class="fa fa-linkedin mr-3"></i>
                   </a>
                 </div>
