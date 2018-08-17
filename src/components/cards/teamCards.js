@@ -5,7 +5,7 @@ const TeamCard = (props) => {
     return (
         <Grid item xs={12}>
             <div className="teamcards-image-body">
-                <img src={props.image} alt={props.alt} className="teamcards-image"/>
+                <img src={props.image} alt={props.alt} className="teamcards-image img-fluid"/>
             </div>
             <div className="teamcards-body">
                 <p className="teamcards-title">

@@ -260,7 +260,7 @@ em, i, dfn {
     @media (max-width: 700px) { 
         margin-top:10%;
         padding-top:0%;
-        img{left:30%;}
+        img{padding-left:7%;}
     }
 }
 @media (min-width: 700px) { 
@@ -307,7 +307,7 @@ em, i, dfn {
 .sect2-cta{
     @media (max-width: 700px) { 
         margin-top:10%;
-        padding-left:25%;
+        padding-left:29%;
     }
     @media (min-width: 700px) { 
         padding-left:44.0%;
@@ -592,6 +592,7 @@ em, i, dfn {
     .teamcards-image{
         width:275px;
         height:150px;
+        object-fit: cover !important;
     }
     .teamcards-body{
         margin-top:1.25em;
@@ -653,6 +654,7 @@ em, i, dfn {
     .teamcards-image{
         width:400px;
         height:270px;
+        object-fit: cover !important;
     }
     .teamcards-body{
         margin-top:1.25em;
@@ -711,6 +713,7 @@ em, i, dfn {
     .teamcards-image{
         width:400px;
         height:270px;
+        object-fit: cover !important;
     }
     .teamcards-body{
         margin-top:1.25em;
