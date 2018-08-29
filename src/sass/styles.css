@@ -575,6 +575,7 @@ body .modal-dialog {
   display: inline-block;
   /* height: 50% !important; */ }
 
+/* Individual Components */
 @media (max-width: 700px) {
   .teamcards-image-body {
     text-align: center;
@@ -728,3 +729,89 @@ body .modal-dialog {
     font-size: 15px;
     line-height: 19px;
     margin-top: 0; } }
+
+.contactus .heading {
+  font-weight: bold;
+  background-color: #EBEBEB;
+  padding: 5px;
+  font-size: 18px;
+  border-radius: 1px;
+  color: #0B486B;
+  width: 100%;
+  margin-top: 0px; }
+
+.contactus .row {
+  padding-left: 5em;
+  padding-right: 0em;
+  text-align: center; }
+
+.contactus .col-md-4 {
+  display: inline-block;
+  width: 33%;
+  height: 100%;
+  margin-bottom: 10px; }
+
+.contactus .col-md-6 {
+  display: inline-block;
+  width: 49.7%;
+  height: 100%; }
+
+.contactus .contactdesc {
+  text-align: center;
+  margin-bottom: 10px; }
+
+.contactus .subsection {
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  display: inline-block;
+  vertical-align: top; }
+
+.contactus .contacticon {
+  border: 5px solid #1c7cf8;
+  padding: 10px;
+  width: 70px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px; }
+
+.contactus .fa {
+  font-size: 35px !important;
+  width: 100%; }
+
+.contactus .subsection h6 a,
+.contactus .subsection h6 {
+  color: #1c7cf8; }
+
+.contactus .mapbutton {
+  margin-top: 20px; }
+
+.contactus .viewmap {
+  color: #fff;
+  background-color: #1c7cf8;
+  margin-top: 0px;
+  padding: 10px;
+  border-radius: 5px; }
+
+.contactus .viewmap:hover {
+  color: #fff; }
+
+.jumbo-home-nativestore img:nth-child(2) {
+  margin-left: 1em; }
+
+.footer .fa {
+  color: #fff;
+  font-size: 17.5px !important; }
+
+.footer .fa-facebook:hover {
+  color: #3B5998; }
+
+.footer .fa-telegram:hover {
+  color: #4E658E; }
+
+.footer .fa-youtube:hover {
+  color: #ff0000; }
+
+.footer .fa-twitter:hover {
+  color: #00ACEE; }

@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import JumboAppImage from '../../img/swipe-app-mockup-home.png';
+import appstoreLogo from '../../img/google-play-badge.svg';
+import googleplayLogo from '../../img/app-store-badge.svg';
 
 class JumbotronHome extends Component {
     render () {
@@ -26,18 +28,13 @@ class JumbotronHome extends Component {
                       Swipe is the best way to receive real cash for shopping at and being loyal to local businesses. Just add your card and start
                       swiping away to automatically receive up to 100% cashback.
                     </p>
+                    <div className="jumbo-home-nativestore">
+                        <img src={googleplayLogo} width="105px" height="105px" alt="google play icon"/>
+                        <img src={appstoreLogo} width="105px" height="105px" alt="apple app store icon"/>
+                    </div>
                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#subscriptionForm">
-                      Get Early Access
+                      Coming Soon
                     </button>
-                    <div class="modal fade" id="subscriptionForm" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered" role="document">
-                          <div class="modal-content">
-                            <div class="modal-body">
-                                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfhkkl47WQ3peJnK4C3-lz8TW0Vsgae9tNrUxglqMIWgOyq4Q/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
                   </div>
                 </div>
               </div>

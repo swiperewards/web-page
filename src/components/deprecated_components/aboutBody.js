@@ -1,11 +1,11 @@
 import React from 'react'
 import Grid from '@material-ui/core/Grid';
 import CardMerchantImage from '../img/ic-values-merchant.svg';
-import ImageCards from './cards/imageCards';
+import ImageCards from '../cards/imageCards';
 import CardInnovateImage from '../img/ic-values-innovate.svg';
 import CardAuthenticityImage from '../img/ic-values-authenticity.svg'
-import TeamCard from './cards/teamCards';
-import AdvisorCard from './cards/advisorCards';
+import TeamCard from '../cards/teamCards';
+import AdvisorCard from '../cards/advisorCards';
 import {Button } from 'mdbreact';
 
 
@@ -37,7 +37,7 @@ const AboutUsBody = (props) => {
                 />
                 <ImageCards
                     image={CardMerchantImage}
-                    title="Demand Excellent"
+                    title="Demand Excellence"
                     subtitle="We are proud of our work. We demand excellence every day from ourselves, as well as from our product."
                     alt="demand excellent"
                 />

@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
-import {Link} from 'react-router-dom';
 
-class JumbotronAbout extends Component {
+class JumbotronContact extends Component {
     render () {
         return (
             <header className="masthead">
@@ -22,7 +21,7 @@ class JumbotronAbout extends Component {
                         <br/>
                         <p>
                             <span className="highlight">Interested in what we can offer?</span>
-                            <Link to="/contact">Contact us.</Link>
+                            <a href="#">Contact us.</a>
                         </p>
                         </div>
                     </div>
@@ -33,4 +32,4 @@ class JumbotronAbout extends Component {
     }
 }
 
-export default JumbotronAbout
+export default JumbotronContact

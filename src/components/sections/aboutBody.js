@@ -25,7 +25,7 @@ class AboutBody extends Component {
                         <img src={ICValuesMerchant} className="media-object" alt="Merchant First"/>
                       </div>
                       <div className="media-body px-4">
-                        <h4 className="media-heading">Merchant First</h4>
+                        <h4 className="media-heading">Merchant</h4>
                         <p>Merchant services has been a highly deceptive industry. We aim to be the opposite, with flat pricing, a massive set of value-adds, and excellent customer service.</p>
                       </div>
                     </div>
@@ -36,8 +36,8 @@ class AboutBody extends Component {
                         <img src={ICValuesInnovate} className="media-object" alt="Innovate"/>
                       </div>
                       <div className="media-body px-4">
-                        <h4 className="media-heading">Innovate</h4>
-                        <p>In order to develop a product that the merchant deserves, we need to continuously innovate. We are constantly trying to find ways to make our offering better. Drop us feedback at <a href="mailto:contact@swiperewards.io?Subject=Greetings!" target="_top">contact@swiperewards.io</a></p>
+                        <h4 className="media-heading">Innovation</h4>
+                        <p>In order to develop a product that the merchant deserves, we need to continuously innovate. We are constantly trying to find ways to make our offering better.</p>
                       </div>
                     </div>
                   </div>
@@ -60,7 +60,7 @@ class AboutBody extends Component {
                         <img src={ICValuesExcellent} className="media-object" alt="Demand Excellent"/>
                       </div>
                       <div className="media-body px-4">
-                        <h4 className="media-heading">Demand Excellent</h4>
+                        <h4 className="media-heading">Demand Excellence</h4>
                         <p>We are proud of our work. We demand excellence every day from ourselves, as well as from our product.</p>
                       </div>
                     </div>
@@ -145,7 +145,7 @@ class AboutBody extends Component {
                 <div className="row" style={{position: 'relative'}}>
                   <div className="col-sm-12 text-center">
                       <h4 className="mb-4">Ready to drive more customers to your business?</h4>
-                      <a className="btn btn-primary">Learn More</a>
+                      <a className="btn btn-primary">Coming Soon</a>
                   </div>
                 </div>
               </div>

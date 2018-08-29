@@ -143,7 +143,7 @@ class HomeBody extends Component {
                         </strong>
                     </p>
                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="subscriptionForm2">
-                        Get Early Access
+                        Coming Soon
                     </button>
                     <div class="modal fade" id="subscriptionForm2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered" role="document">

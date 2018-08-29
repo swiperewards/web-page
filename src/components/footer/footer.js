@@ -1,24 +1,28 @@
 import React, { Component } from 'react'
-import SwipeLogoWhite from '../../img/swipe-logo-final-white.png';
+import {Link} from 'react-router-dom'
+import SwipeLogoWhite from '../../img/swipe-logo-final-white.png'
 
 class Footer extends Component {
     render () {
         return (
-        <footer>
+        <footer className="footer">
             <div className="container">
               <div className="row">
                 <div className="col-lg-3 mb-3 text-left company-info">
                   <img src={SwipeLogoWhite} className="mb-3" style={{height: '32px'}}/>
                   <div className="mb-3 social">
-                    <a href="#" target="_blank">
+                    <Link to="https://www.facebook.com/swiperewards/" target="_blank">
                       <i className="fa fa-facebook mr-3"></i>
-                    </a>
-                    <a href="#" target="_blank">
+                    </Link>
+                    <Link to="https://twitter.com/Swiperewards?lang=en" target="_blank">
                       <i className="fa fa-twitter mr-3"></i>
-                    </a>
-                    <a href="#" target="_blank">
-                      <i className="fa fa-linkedin mr-3"></i>
-                    </a>
+                    </Link>
+                    <Link to="https://t.me/SwipeRewards" target="_blank">
+                      <i className="fa fa-telegram mr-3"></i>
+                    </Link>
+                    <Link to="https://www.youtube.com/channel/UCIhCsBB4nj0rK3rYrETtp4Q" target="_blank">
+                      <i className="fa fa-youtube mr-3 "></i>
+                    </Link>
                   </div>
                   <p>
                     <small>© 2018, swiperewards.io . All rights reserved.</small>
@@ -34,11 +38,11 @@ class Footer extends Component {
                   </p>
                   <ul className="list-unstyled">
                     <li>
-                      <a href="#">Company</a>
+                      <Link to="/about">Company</Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <a href="#">Careers</a>
-                    </li>
+                    </li> */}
                     <li>
                       <a href="#">Terms of Service</a>
                     </li>
