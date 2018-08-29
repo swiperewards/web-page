@@ -1,17 +1,17 @@
 import React, { Component } from 'react'
-import Navbar from '../components/navbar';
-import FooterSection from '../components/footer';
-import JumboAbout from '../components/jumboAbout';
-import AboutUsBody from '../components/aboutBody';
+import Navbar from '../components/navigation/navbar';
+import JumbotronAbout from '../components/jumbotron/jumbotronAbout';
+import AboutBody from '../components/sections/aboutBody';
+import Footer from '../components/footer/footer';
 
 class About extends Component {
     render () {
         return (
-            <div>
+            <div className="about">
                 <Navbar/>
-                <JumboAbout/>
-                <AboutUsBody/>
-                <FooterSection/>
+                <JumbotronAbout/>
+                <AboutBody/>
+                <Footer/>
             </div>
         )
     }

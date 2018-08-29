@@ -1,22 +1,20 @@
 import React, { Component } from 'react';
 import Navbar from '../components/navigation/navbar';
-import JumbotronHome from '../components/jumbotron/jumbotronHome';
-import HomeBody from '../components/sections/homeBody';
+import JumbotronFAQ from '../components/jumbotron/jumbotronFAQ';
+import FAQBody from '../components/sections/faqBody';
 import Footer from '../components/footer/footer';
 
-
-class Home extends Component {
-      
+class FAQ extends Component {
     render () {
         return (
-            <div>
+            <div className="faq">
                 <Navbar/>
-                <JumbotronHome/>
-                <HomeBody/>
+                <JumbotronFAQ/>
+                <FAQBody/>
                 <Footer/>
             </div>
         )
     }
 }
 
-export default Home;
+export default FAQ
