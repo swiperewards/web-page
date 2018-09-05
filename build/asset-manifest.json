@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.9749a536.css",
-  "main.css.map": "static/css/main.9749a536.css.map",
-  "main.js": "static/js/main.05b4f955.js",
-  "main.js.map": "static/js/main.05b4f955.js.map",
+  "main.css": "static/css/main.bfa82866.css",
+  "main.css.map": "static/css/main.bfa82866.css.map",
+  "main.js": "static/js/main.a23af54a.js",
+  "main.js.map": "static/js/main.a23af54a.js.map",
   "static\\media\\about-hero.jpg": "static/media/about-hero.f890253a.jpg",
   "static\\media\\app-store-badge.svg": "static/media/app-store-badge.d0558d91.svg",
   "static\\media\\card-bg-long.svg": "static/media/card-bg-long.c0d15011.svg",
@@ -21,6 +21,7 @@
   "static\\media\\ic-values-excellent.svg": "static/media/ic-values-excellent.cccd98ab.svg",
   "static\\media\\ic-values-innovate.svg": "static/media/ic-values-innovate.f9f8eec0.svg",
   "static\\media\\ic-values-merchant.svg": "static/media/ic-values-merchant.dcdd06a2.svg",
+  "static\\media\\nouvo_final.png": "static/media/nouvo_final.59b60fa1.png",
   "static\\media\\overlay-polygon.png": "static/media/overlay-polygon.e4a9e60d.png",
   "static\\media\\send-money-bg.png": "static/media/send-money-bg.1b039ed0.png",
   "static\\media\\swipe-app-mockup-home-2.png": "static/media/swipe-app-mockup-home-2.07e2cfb1.png",
@@ -28,7 +29,5 @@
   "static\\media\\swipe-app-mockup-redeem-bank.png": "static/media/swipe-app-mockup-redeem-bank.8eb9ffdc.png",
   "static\\media\\swipe-app-mockup-redeem-crypto.png": "static/media/swipe-app-mockup-redeem-crypto.223c5c1d.png",
   "static\\media\\swipe-app-mockup-wallet-transactions.png": "static/media/swipe-app-mockup-wallet-transactions.0ee7fd88.png",
-  "static\\media\\swipe-app-mockup-wallet.png": "static/media/swipe-app-mockup-wallet.6dd10cee.png",
-  "static\\media\\swipe-logo-final-white.png": "static/media/swipe-logo-final-white.1831c194.png",
-  "static\\media\\swipe-logo-final.png": "static/media/swipe-logo-final.73d35242.png"
+  "static\\media\\swipe-app-mockup-wallet.png": "static/media/swipe-app-mockup-wallet.6dd10cee.png"
 }
