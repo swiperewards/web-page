@@ -13,9 +13,9 @@ class JumbotronMerchant extends Component {
                 </div>
                 <div className="col-lg-5 my-auto">
                   <div className="header-content">
-                    <h1 className="mb-3">Swipe to Save</h1>
+                    <h1 className="mb-3">Nouvo to Save</h1>
                     <p className="mb-5 subtext">
-                      Swipe is the revolutionary new tool that will help you retain your current customers, obtain new customers, and reduce your
+                      Nouvo is the revolutionary new tool that will help you retain your current customers, obtain new customers, and reduce your
                       processing costs - all in one package.
                     </p>
                     <a className="btn btn-primary">Coming Soon</a> 

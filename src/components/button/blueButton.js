@@ -1,14 +1,12 @@
 import React, { Component } from 'react'
-import {Button} from '@material-ui/core'
 
-class BlueButton extends Component {
-    render () {
+
+function BlueButton(props)  {
         return (
             <div>
-                <Button/>
+                <button type="button" class="btn btn btn-outline-primary">{props.button}</button>
             </div>
         )
-    }
 }
 
 export default BlueButton

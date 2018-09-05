@@ -23,9 +23,9 @@ class JumbotronHome extends Component {
                 </div>
                 <div class="col-sm-7 my-auto order-md-first order-lg-first">
                   <div class="header-content">
-                    <h1 class="mb-3">Swipe to Save</h1>
+                    <h1 class="mb-3">Nouvo To Earn</h1>
                     <p class="mb-5 subtext">
-                      Swipe is the best way to receive real cash for shopping at and being loyal to local businesses. Just add your card and start
+                      Nouvo is the best way to receive real cash for shopping at and being loyal to local businesses. Just add your card and start
                       swiping away to automatically receive up to 100% cashback.
                     </p>
                     <div className="jumbo-home-nativestore">

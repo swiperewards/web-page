@@ -13,10 +13,7 @@ class MerchantBody extends Component {
                             <h3 className="mb-3">Boost Margins. Reduce Costs.</h3>
                             <div className="col-lg-6 offset-lg-3">
                             <p className="subtext">
-                                Take your business to the next level. Swipe is the perfect tool to acquire and retain customers at no cost to you,
-                                <strong>
-                                <i>the merchant</i>
-                                </strong>.
+                                Take your business to the next level. Nouvo is the perfect tool to acquire and retain customers no cost to you - the merchant.
                             </p>
                             <br/>
                             <br/>
@@ -35,7 +32,7 @@ class MerchantBody extends Component {
                         <h3>How It Works</h3>
                         <div className="col-lg-6 offset-lg-3">
                             <p className="subtext-small mb-5">
-                            A short lorem ipsum can be placed here
+                            {/* Input some text here if needed */}
                             </p>
                         </div> 
                         </div>
@@ -48,8 +45,8 @@ class MerchantBody extends Component {
                         </div>
                         <div className="col-sm-6 my-5 hiw-item">
                         <div className="col-sm-8 inner-div">
-                            <h5 className="hiw-title">1. Swipe</h5>
-                            <p className="hiw-content">Swipe processes your payments and uses accrued credit card transaction fees to form reward pools.</p>
+                            <h5 className="hiw-title">1. Nouvo</h5>
+                            <p className="hiw-content">Nouvo processes your payments and uses accrued credit card transaction fees to form reward pools.</p>
                         </div>  
                         </div>
                         <div className="col-sm-6 my-5 hiw-item">

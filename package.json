@@ -1,6 +1,6 @@
 {
-  "name": "swipe-webpage",
-  "version": "0.1.0",
+  "name": "nouvo-webpage",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^1.4.3",

@@ -2,7 +2,8 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: sans-serif; 
+    font-family: sans-serif;
+    background-color:#FFFFFF ! important; 
   } 
 
   //import below for bootstrap here if needed
@@ -994,6 +995,8 @@ body .modal-dialog { /* Width */
   .fa-telegram:hover{color:#4E658E;}
   .fa-youtube:hover{color: #ff0000}
   .fa-twitter:hover{color:#00ACEE;}
+  .fa-instagram:hover{background: #d6249f; 
+    color: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);}
 }
 
 

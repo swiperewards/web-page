@@ -18,8 +18,8 @@ class FAQBody extends Component {
                         </div>
 
                         <div className="col-lg-6 col-sm-12 offset-lg-3 faq-item mb-5">
-                        <h5>Q: I heard I can make money?</h5>
-                        <p>Yup. Our cashback is unlimited. Meaning, your cashback can go over 100%.</p>
+                        <h5>Q: How can I make money?</h5>
+                        <p>Our cashback is unlimited. Meaning, your cashback can go over 100%.</p>
                         </div>
 
                         <div className="col-lg-6 col-sm-12 offset-lg-3 faq-item mb-5">
@@ -29,7 +29,7 @@ class FAQBody extends Component {
 
                         <div className="col-lg-6 col-sm-12 offset-lg-3 faq-item mb-5">
                         <h5>Q: When will the app be released?</h5>
-                        <p>September.</p>
+                        <p>September 2018.</p>
                         </div>
 
                         <div className="col-lg-6 col-sm-12 offset-lg-3 faq-item mb-5">
@@ -38,18 +38,18 @@ class FAQBody extends Component {
                         </div>
 
                         <div className="col-lg-6 col-sm-12 offset-lg-3 faq-item mb-5">
-                        <h5>Q: Does it work with any card?</h5>
-                        <p>Any credit or debit card.</p>
+                        <h5>Q: What cards can I use with Nouvo?</h5>
+                        <p>All debit and credit cards are eligible.</p>
                         </div>
 
                         <div className="col-lg-6 col-sm-12 offset-lg-3 faq-item mb-5">
                         <h5>Q: I have a question you haven’t answered.</h5>
-                        <p>Send us an email at contact@swiperewards.io</p>
+                        <p>Send us an email at contact@nouvo.io</p>
                         </div>
 
                         <div className="col-lg-6 col-sm-12 offset-lg-3 faq-item mb-5">
-                        <h5>Q: Can I add a merchant to Swipe?</h5>
-                        <p>Absolutely. Email contact@swiperewards.io</p>
+                        <h5>Q: can I suggest a merchant to Nouvo?</h5>
+                        <p>Absolutely. Email contact@nouvo.io</p>
                         </div>
                     </div>
                     </div>

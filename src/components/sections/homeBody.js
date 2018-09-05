@@ -34,7 +34,7 @@ class HomeBody extends Component {
                         <div class="col-md-6 col-sm-7 my-auto ml-sm-5">
                         <h3 class="mb-3">Unlimited Cashback</h3>
                         <p class="subtext">
-                            With Swipe, the more loyal you are the more cashback you earn. Are you a regular at your local coffee shop? You could earn
+                            With Nouvo, the more loyal you are the more cashback you earn. Are you a regular at your local coffee shop? You could earn
                             up to 50% more cashback than other shoppers at that location.
                         </p>
                         </div>
@@ -61,7 +61,7 @@ class HomeBody extends Component {
                         </div>
                         <div class="col-md-6 col-sm-7 my-auto order-md-first">
                             <div class="">
-                            <h3 class="mb-3">Automatic Cashback</h3>
+                            <h3 class="mb-3">Automatic Rewards</h3>
                             <p class="subtext">
                                 Our goal is to make your life as easy as possible. All you have to do on your end is download our app, add your card, and
                                 shop at any of our partner locations. Every time you swipe your linked card you earn cashback, automatically.
@@ -92,7 +92,7 @@ class HomeBody extends Component {
                         <div class="col-md-6 col-sm-7 my-auto ml-sm-5">
                         <h3 class="mb-3">Send Money, Anywhere</h3>
                         <p class="subtext">
-                            Swipe gives you real cash that you can transfer to your bank account, spend at merchants, or send to your friends.
+                            Nouvo gives you real cash that you can transfer to your bank account, spend at merchants, or send to your friends.
                         </p>
                         </div>
                     </div>
