@@ -25,7 +25,7 @@ class AboutBody extends Component {
                         <img src={ICValuesMerchant} className="media-object" alt="Merchant First"/>
                       </div>
                       <div className="media-body px-4">
-                        <h4 className="media-heading">Merchant</h4>
+                        <h4 className="media-heading">Services</h4>
                         <p>Merchant services has been a highly deceptive industry. We aim to be the opposite, with flat pricing, a massive set of value-adds, and excellent customer service.</p>
                       </div>
                     </div>
@@ -60,7 +60,7 @@ class AboutBody extends Component {
                         <img src={ICValuesExcellent} className="media-object" alt="Demand Excellent"/>
                       </div>
                       <div className="media-body px-4">
-                        <h4 className="media-heading">Demand Excellence</h4>
+                        <h4 className="media-heading">Excellence</h4>
                         <p>We are proud of our work. We demand excellence every day from ourselves, as well as from our product.</p>
                       </div>
                     </div>
@@ -117,8 +117,8 @@ class AboutBody extends Component {
                     image="https://s3.amazonaws.com/swipe-webpage-pictures/image-karina.jpg"
                     title="Karina Lopez"
                     subtitle="Director of Communications"
-                    description="Born in Los Angeles, CA, Karina , Karina has had a knack for entrepreneurship from a young age. As an adult, he is a serial entrepreneur with one purpose in mind: empowering small businesses."
-                    hobbies="SoulCycle. Binge-watching Netflix. "
+                    description="Born in Los Angeles, CA, Karina has worked in communications for one of the country’s leading digital media organization, PragerU for over a year and is excited to bring her talents to Nouvo."
+                    hobbies="SoulCycle. Binge-watching Netflix."
                     games="GTA V"
                     alt="Karina Lopez"
                     linkedin="https://www.linkedin.com/in/karina-l-78905a103/"

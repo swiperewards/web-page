@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
-import SwipeLogoWhite from '../../img/swipe-logo-final-white.png'
+import NouvoLogoWhite from '../../img/Nouvo-Logo-150x150.png'
 
 class Footer extends Component {
     render () {
@@ -9,7 +9,7 @@ class Footer extends Component {
             <div className="container">
               <div className="row">
                 <div className="col-lg-3 mb-3 text-left company-info">
-                  <img src={SwipeLogoWhite} className="mb-3" style={{height: '32px'}}/>
+                  {/* <img src={NouvoLogoWhite} className="mb-3" style={{height: '32px'}}/> */}
                   <div className="mb-3 social">
                     <Link to="https://www.facebook.com/swiperewards/" target="_blank">
                       <i className="fa fa-facebook mr-3"></i>
@@ -23,9 +23,12 @@ class Footer extends Component {
                     <Link to="https://www.youtube.com/channel/UCIhCsBB4nj0rK3rYrETtp4Q" target="_blank">
                       <i className="fa fa-youtube mr-3 "></i>
                     </Link>
+                    <Link to="https://www.youtube.com/channel/UCIhCsBB4nj0rK3rYrETtp4Q" target="_blank">
+                      <i className="fa fa-instagram mr-3 "></i>
+                    </Link>
                   </div>
                   <p>
-                    <small>© 2018, swiperewards.io . All rights reserved.</small>
+                    <small>© 2018, Nouvo.io . All rights reserved.</small>
                   </p>
                 </div>
 

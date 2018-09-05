@@ -13,16 +13,16 @@ class JumbotronAbout extends Component {
                         <div className="col-lg-6 col-sm-12 about-hero-text my-5 py-5">
                         <h2>
                             Our mission is simple -
-                            <br/>>we aim to empower the small business with unrivaled analytics, retention, and processing,
-                            and processing.
+                            <br/>we aim to empower the small business with unrivaled analytics, retention, and processing.
                             <span className="highlight">
+                            <br/>
                             <i>And we do it all for free.</i>
                             </span>
                         </h2>
                         <br/>
                         <p>
-                            <span className="highlight">Interested in what we can offer?</span>
-                            <Link to="/contact">Contact us.</Link>
+                            <span className="highlight">Interested in what we can offer? </span>
+                            <Link to="/contact"> Contact us.</Link>
                         </p>
                         </div>
                     </div>
