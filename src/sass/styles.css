@@ -817,6 +817,14 @@ body .modal-dialog {
 .footer .fa-twitter:hover {
   color: #00ACEE; }
 
+.footer .fa-linkedin:hover {
+  color: #00ACEE; }
+
 .footer .fa-instagram:hover {
   background: #d6249f;
   color: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); }
+
+@media only screen and (max-width: 420px) and (min-width: 375px) {
+  #hiw > .h100 > .row > .col > .device-container {
+    max-width: 350px !important;
+    margin: 0 !important; } }

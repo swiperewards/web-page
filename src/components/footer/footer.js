@@ -11,21 +11,21 @@ class Footer extends Component {
                 <div className="col-lg-3 mb-3 text-left company-info">
                   {/* <img src={NouvoLogoWhite} className="mb-3" style={{height: '32px'}}/> */}
                   <div className="mb-3 social">
-                    <Link to="https://www.facebook.com/swiperewards/" target="_blank">
+                    <a href="https://www.facebook.com/nouvoapp/" target="_blank">
                       <i className="fa fa-facebook mr-3"></i>
-                    </Link>
-                    <Link to="https://twitter.com/Swiperewards?lang=en" target="_blank">
+                    </a>
+                    <a href="https://twitter.com/Nouvoapp" target="_blank">
                       <i className="fa fa-twitter mr-3"></i>
-                    </Link>
-                    <Link to="https://t.me/SwipeRewards" target="_blank">
+                    </a>
+                    <a href="https://t.me/nouvo" target="_blank">
                       <i className="fa fa-telegram mr-3"></i>
-                    </Link>
-                    <Link to="https://www.youtube.com/channel/UCIhCsBB4nj0rK3rYrETtp4Q" target="_blank">
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCIhCsBB4nj0rK3rYrETtp4Q" target="_blank">
                       <i className="fa fa-youtube mr-3 "></i>
-                    </Link>
-                    <Link to="https://www.youtube.com/channel/UCIhCsBB4nj0rK3rYrETtp4Q" target="_blank">
-                      <i className="fa fa-instagram mr-3 "></i>
-                    </Link>
+                    </a>
+                    <a href="https://www.linkedin.com/company/nouvoapp/" target="_blank">
+                      <i className="fa fa-linkedin mr-3 "></i>
+                    </a>
                   </div>
                   <p>
                     <small>© 2018, Nouvo.io . All rights reserved.</small>

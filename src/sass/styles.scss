@@ -995,8 +995,19 @@ body .modal-dialog { /* Width */
   .fa-telegram:hover{color:#4E658E;}
   .fa-youtube:hover{color: #ff0000}
   .fa-twitter:hover{color:#00ACEE;}
-  .fa-instagram:hover{background: #d6249f; 
-    color: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);}
+  .fa-linkedin:hover{color:#00ACEE;}
+  .fa-instagram:hover{
+    background: #d6249f; 
+    color: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  }
 }
 
+//Special CSS For iPhone8, 8+, and later devices
+
+@media only screen and (max-width: 420px) and (min-width: 375px)  {
+  #hiw>.h100>.row>.col>.device-container{
+    max-width: 350px !important;
+    margin:0 !important;
+  }
+}
 
