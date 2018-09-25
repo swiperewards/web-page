@@ -81,7 +81,7 @@ class AboutBody extends Component {
                 </div>
               </div>
                 <TeamCard
-                    image="https://s3.amazonaws.com/swipe-webpage-pictures/image-isaac.png"
+                    image="https://s3.amazonaws.com/swipe-webpage-pictures/img-isaac.jpg"
                     title="Isaac Medeiros"
                     subtitle="Co-Founder and CEO"
                     description="Born in João Pessoa, Brazil, Isaac has had a knack for entrepreneurship from a young age. As an adult, he is a serial entrepreneur with one purpose in mind: empowering small businesses."
