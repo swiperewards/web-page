@@ -8,7 +8,7 @@ class ContactBody extends Component {
                 <div className="row">
                     <div className="col-md-10 col-md-offset-1 contactdesc">
                     <p>We are here to help. If you have a question about one of our products or our service, we invite you to contact us.</p>
-                    <p><strong>Our Support team is available Monday to Friday, 8 AM to 5 PM Pacific Time.</strong></p>
+                    <p><strong>Our Support team is available Monday to Friday, 9 AM to 9 PM Pacific Time.</strong></p>
                     </div>
                 </div>
                 
@@ -28,7 +28,7 @@ class ContactBody extends Component {
                     <div className="col-md-4 subsection">
                         <div className="contacticon"><i className="fa fa-map-marker" aria-hidden="true"></i></div>
                         <h6>Mailing address</h6>
-                        <h6>335 Steelcase Road East Markham, ON L3R1G3 Canada</h6>
+                        <h6>1433 N Harper Ave, West Hollywood CA 90046</h6>
                     </div>
                     </div>
                 </div>

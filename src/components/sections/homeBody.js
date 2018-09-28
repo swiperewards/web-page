@@ -145,11 +145,11 @@ class HomeBody extends Component {
                     <button type="button" className="btn btn-primary" data-toggle="modal" data-target="subscriptionForm2">
                         Coming Soon
                     </button>
-                    <div className="modal fade" id="subscriptionForm2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div className="modal fade" id="subscriptionForm2" tabIndex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                         <div className="modal-dialog modal-dialog-centered" role="document">
                             <div className="modal-content">
                             <div className="modal-body">
-                                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfhkkl47WQ3peJnK4C3-lz8TW0Vsgae9tNrUxglqMIWgOyq4Q/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+                                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfhkkl47WQ3peJnK4C3-lz8TW0Vsgae9tNrUxglqMIWgOyq4Q/viewform?embedded=true" width="700" height="520" frameBorder="0" marginHeight="0" marginWidth="0">Loading...</iframe>
                             </div>
                             </div>
                         </div>

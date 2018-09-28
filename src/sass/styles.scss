@@ -304,6 +304,11 @@ header.masthead .device-container .screen img {
   margin-top: 24px;
 }
 
+.privacy{
+  margin-top: 5em;
+  text-align: justify;
+}
+
 .client .hiw {
   background: #FBFCFF;
 }
@@ -982,6 +987,12 @@ body .modal-dialog { /* Width */
   img:nth-child(2){
     margin-left:1em;
   }
+}
+
+//PrivacyPolicy
+
+.policy>br{
+  margin-top:3em;
 }
 
 //Footer
