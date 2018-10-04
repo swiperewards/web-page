@@ -34,8 +34,7 @@ class HomeBody extends Component {
                         <div className="col-md-6 col-sm-7 my-auto ml-sm-5">
                         <h3 className="mb-3">Unlimited Cashback</h3>
                         <p className="subtext">
-                            With Nouvo, the more loyal you are the more cashback you earn. Are you a regular at your local coffee shop? You could earn
-                            up to 50% more cashback than other shoppers at that location.
+                        With Nouvo, the more loyal you are the more cashback you earn. Are you a regular at your local coffee shop? You could earn up to 50% more cashback than other shoppers at that location.
                         </p>
                         </div>
                     </div>
@@ -63,8 +62,7 @@ class HomeBody extends Component {
                             <div className="">
                             <h3 className="mb-3">Automatic Rewards</h3>
                             <p className="subtext">
-                                Our goal is to make your life as easy as possible. All you have to do on your end is download our app, add your card, and
-                                shop at any of our partner locations. Every time you swipe your linked card you earn cashback, automatically.
+                            Our goal is to make your life as easy as possible. All you have to do on your end is download our app, add your card, and shop at any of our partner locations. Every time you swipe your linked card you earn cashback, automatically.
                             </p>
                             </div>
                         </div>
@@ -90,9 +88,9 @@ class HomeBody extends Component {
                         </div>
                         </div>
                         <div className="col-md-6 col-sm-7 my-auto ml-sm-5">
-                        <h3 className="mb-3">Send Money, Anywhere</h3>
+                        <h3 className="mb-3">Real Money</h3>
                         <p className="subtext">
-                            Nouvo gives you real cash that you can transfer to your bank account, spend at merchants, or send to your friends.
+                        Get cash you can transfer to your bank account, spend at merchants, or send to your friends.
                         </p>
                         </div>
                     </div>
@@ -120,7 +118,7 @@ class HomeBody extends Component {
                         <div className="">
                             <h3 className="mb-3">Get Cash or Cryptocurrencies</h3>
                             <p className="subtext">
-                            You have the option to be rewarded in cryptocurrency or redeem your cashback for cryptocurrency.
+                            Redeem your cash in your favorite cryptocurrency.
                             </p>
                         </div>
                         </div>
@@ -145,11 +143,11 @@ class HomeBody extends Component {
                     <button type="button" className="btn btn-primary" data-toggle="modal" data-target="subscriptionForm2">
                         Coming Soon
                     </button>
-                    <div className="modal fade" id="subscriptionForm2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div className="modal fade" id="subscriptionForm2" tabIndex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                         <div className="modal-dialog modal-dialog-centered" role="document">
                             <div className="modal-content">
                             <div className="modal-body">
-                                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfhkkl47WQ3peJnK4C3-lz8TW0Vsgae9tNrUxglqMIWgOyq4Q/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+                                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfhkkl47WQ3peJnK4C3-lz8TW0Vsgae9tNrUxglqMIWgOyq4Q/viewform?embedded=true" width="700" height="520" frameBorder="0" marginHeight="0" marginWidth="0">Loading...</iframe>
                             </div>
                             </div>
                         </div>

@@ -7,23 +7,29 @@ import FAQ from './containers/FAQ';
 import Merchant from './containers/Merchant';
 import Contact from './containers/Contact';
 import 'font-awesome/css/font-awesome.min.css';
-import 'bootstrap/dist/css/bootstrap.min.css'; 
+import 'bootstrap/dist/css/bootstrap.min.css';
+import ScrollToTop from './scrollToTop';
+import PrivacyPolicy from './containers/Privacy';
+
+
+
+
 
 class App extends Component {
-  componentDidMount() {
-    window.scrollTo(0, 0)
-  }
   render() {
     return (
       <React.Fragment>
         <CssBaseline/>
-        <Switch>
-          <Route exact path='/' component={Home}/>
-          <Route path='/about' component={About}/>
-          <Route path='/faqs' component={FAQ}/>
-          <Route path='/merchant' component={Merchant}/>
-          <Route path='/contact' component={Contact}/>
-        </Switch>
+        <ScrollToTop>
+          <Switch>
+            <Route exact path='/' component={Home}/>
+            <Route path='/about' component={About}/>
+            <Route path='/faqs' component={FAQ}/>
+            {/* <Route path='/merchant' component={Merchant}/> */}
+            <Route path='/contact' component={Contact}/>
+            <Route path='/privacypolicy' component={PrivacyPolicy}/>
+          </Switch>
+        </ScrollToTop>
       </React.Fragment>
     );
   }

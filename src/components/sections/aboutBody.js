@@ -25,7 +25,7 @@ class AboutBody extends Component {
                         <img src={ICValuesMerchant} className="media-object" alt="Merchant First"/>
                       </div>
                       <div className="media-body px-4">
-                        <h4 className="media-heading">Services</h4>
+                        <h4 className="media-heading">Service</h4>
                         <p>Merchant services has been a highly deceptive industry. We aim to be the opposite, with flat pricing, a massive set of value-adds, and excellent customer service.</p>
                       </div>
                     </div>
@@ -37,7 +37,7 @@ class AboutBody extends Component {
                       </div>
                       <div className="media-body px-4">
                         <h4 className="media-heading">Innovation</h4>
-                        <p>In order to develop a product that the merchant deserves, we need to continuously innovate. We are constantly trying to find ways to make our offering better.</p>
+                        <p>We are constantly looking for ways to improve our product</p>
                       </div>
                     </div>
                   </div>
@@ -50,7 +50,7 @@ class AboutBody extends Component {
                       </div>
                       <div className="media-body px-4">
                         <h4 className="media-heading">Authenticity</h4>
-                        <p>We are honest and transparent. We make commitments and follow through. We communicate with respect and provide unparalleled service.</p>
+                        <p>We are honest and transparent. We make commitments and follow through. We communicate with respect and provide an unparalleled product.</p>
                       </div>
                     </div>
                   </div>
@@ -61,7 +61,7 @@ class AboutBody extends Component {
                       </div>
                       <div className="media-body px-4">
                         <h4 className="media-heading">Excellence</h4>
-                        <p>We are proud of our work. We demand excellence every day from ourselves, as well as from our product.</p>
+                        <p>We demand excellence every day from ourselves and from our product.</p>
                       </div>
                     </div>
                   </div>
