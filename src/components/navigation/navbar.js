@@ -26,14 +26,14 @@ class Navbar extends Component {
                       <Link to="/about" className="nav-link">About Us</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/faqs" className="nav-link">FAQs</Link>
+                        <Link to="/faqs" className="nav-link">FAQ</Link>
                     </li>
                     <li className="nav-item">
-                      <Link to="/merchant" className="nav-link">Merchant</Link>
+                      <a href="https://merchant.nouvo.io/" className="nav-link">Merchant</a>
                     </li>
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                       <Link to="/contact" className="nav-link">Contact us</Link>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>

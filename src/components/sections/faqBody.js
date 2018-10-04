@@ -9,27 +9,22 @@ class FAQBody extends Component {
                     <div className="row" style={{position: 'relative'}}>
                         <div className="col-lg-6 col-sm-12 offset-lg-3 faq-item mb-5">
                         <h5>Q: Is it really free?</h5>
-                        <p>Yes it is free and users of our mobile app have a stake in the pool to earn greater cashback rewards.</p>
+                        <p>Yes, it is free and users of our mobile app have a stake in the pool to earn greater cashback rewards.</p>
                         </div>
 
                         <div className="col-lg-6 col-sm-12 offset-lg-3 faq-item mb-5">
                         <h5>Q: How does the cashback work?</h5>
-                        <p>You add the card(s) you want to use. The cashback comes every time you use a registered card at one of our merchants. The more loyal you are, the more cashback you earn. </p>
+                        <p>You just add the card(s) you want to use and the cashback will come every time you use a registered card at one of our merchants.</p>
                         </div>
 
                         <div className="col-lg-6 col-sm-12 offset-lg-3 faq-item mb-5">
-                        <h5>Q: How can I make money?</h5>
-                        <p>Our cashback is unlimited. Meaning, your cashback can go over 100%.</p>
+                        <h5>Q: Is there a limit to how much I can earn in cashback?</h5>
+                        <p>Not at all. Our cashback is unlimited. That means you can earn over 100% of what you spend in cashback.</p>
                         </div>
 
                         <div className="col-lg-6 col-sm-12 offset-lg-3 faq-item mb-5">
                         <h5>Q: What’s the catch?</h5>
-                        <p>There is no catch. Your favorite stores want more consumers and we give you cashback for staying loyal. Everyone wins. </p>
-                        </div>
-
-                        <div className="col-lg-6 col-sm-12 offset-lg-3 faq-item mb-5">
-                        <h5>Q: When will the app be released?</h5>
-                        <p>September 2018.</p>
+                        <p>Your favorite stores gain customers and you earn cash for shopping there.</p>
                         </div>
 
                         <div className="col-lg-6 col-sm-12 offset-lg-3 faq-item mb-5">
@@ -48,7 +43,7 @@ class FAQBody extends Component {
                         </div>
 
                         <div className="col-lg-6 col-sm-12 offset-lg-3 faq-item mb-5">
-                        <h5>Q: can I suggest a merchant to Nouvo?</h5>
+                        <h5>Q: Can I suggest a merchant?</h5>
                         <p>Absolutely. Email contact@nouvo.io</p>
                         </div>
                     </div>

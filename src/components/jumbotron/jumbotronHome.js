@@ -23,10 +23,9 @@ class JumbotronHome extends Component {
                 </div>
                 <div className="col-sm-7 my-auto order-md-first order-lg-first">
                   <div className="header-content">
-                    <h1 className="mb-3">Nouvo To Earn</h1>
+                    <h1 className="mb-3">Save with Nouvo</h1>
                     <p className="mb-5 subtext">
-                      Nouvo is the best way to receive real cash for shopping at and being loyal to local businesses. Just add your card and start
-                      swiping away to automatically receive up to 100% cashback.
+                    Nouvo is the best way to receive cashback for shopping at the places you love. Just add your card(s) and start shopping to automatically receive up to 100% cashback.
                     </p>
                     <div className="jumbo-home-nativestore">
                         <img src={googleplayLogo} width="105px" height="105px" alt="google play icon"/>
